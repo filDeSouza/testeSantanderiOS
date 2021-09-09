@@ -1,0 +1,40 @@
+PODS:
+  - CPF-CNPJ-Validator (1.0.2)
+  - HideShowPasswordTextField (0.3)
+  - KeychainSwift (19.0.0)
+  - Loadmation (0.0.9)
+  - SDLoader (0.2.0)
+
+DEPENDENCIES:
+  - CPF-CNPJ-Validator
+  - HideShowPasswordTextField (from `https://github.com/Guidebook/HideShowPasswordTextField`)
+  - KeychainSwift (~> 19.0)
+  - Loadmation
+  - SDLoader
+
+SPEC REPOS:
+  trunk:
+    - CPF-CNPJ-Validator
+    - KeychainSwift
+    - Loadmation
+    - SDLoader
+
+EXTERNAL SOURCES:
+  HideShowPasswordTextField:
+    :git: https://github.com/Guidebook/HideShowPasswordTextField
+
+CHECKOUT OPTIONS:
+  HideShowPasswordTextField:
+    :commit: d85212236651d141ba387b65edcff9940ab894f3
+    :git: https://github.com/Guidebook/HideShowPasswordTextField
+
+SPEC CHECKSUMS:
+  CPF-CNPJ-Validator: 0b08069595da2c4b20e964b743bfc0a7334d5347
+  HideShowPasswordTextField: 9426177a6b6498a6084e29ad65bba7d1157951b7
+  KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
+  Loadmation: 2e25dcbb2a4e74f3ece08a688d9e5f40e91e5a20
+  SDLoader: e35b571db413a4a98b6f58469b16dc095289c9f6
+
+PODFILE CHECKSUM: f809a530b452a04bd97e9930ba2091a33fca536e
+
+COCOAPODS: 1.11.0

@@ -1,0 +1,1538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04216F743D48921044A5AB1A0B60FED4 /* SDLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A7C161E66321F11B0FE7DB62715FF2 /* SDLoader.swift */; };
+		0CBFBBC52B77AEDD220B219AFA55B4F6 /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A60889EE25C4013B32E8093C75C6FA /* KeychainSwift.swift */; };
+		14B622717C6A2D5E5A4DD8B14DAD46CC /* ic_eye_open@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2242147FC4A99D6C891A473B208C325A /* ic_eye_open@3x.png */; };
+		170A3B9221916FA1B983407D3C9471EC /* Loadmation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D45CB0314D7E4A8538477673EC14825E /* Loadmation-dummy.m */; };
+		24B3BBFCE8C6DBE1DEDC8BEF5C88D829 /* Loadmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94026BB8C0F3872FD91CC5DC26B11C1 /* Loadmation.swift */; };
+		256CB8669CD27B641D4F09032F07A1F2 /* Pods-Teste Santander-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0534FB64CD5E6E2F1DB8AA3A06B8137 /* Pods-Teste Santander-dummy.m */; };
+		28B8AA70098EF3938F6E6C317D36141E /* ic_password_checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75DC4D501C8E882E937B3B92B111391E /* ic_password_checkmark@2x.png */; };
+		32ACDBE9A819C4472C54F0D072E38288 /* ic_eye_closed.png in Resources */ = {isa = PBXBuildFile; fileRef = BD5C99FDF4C81270BD379160AD2C13EE /* ic_eye_closed.png */; };
+		3716245ECC1477B8900C6ED5B580E0D2 /* SDLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BD03F4BD3F20006E0F6D59A79E1D64 /* SDLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37EC024F54023B0D698A37C47122C953 /* KeychainSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A59220DAFC0A15FEE7FB3CBBDCC5447D /* KeychainSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A02D3209E23395602E3390E9351C9A8 /* ic_eye_closed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B563D74472D783FA8CD383DE44184008 /* ic_eye_closed@2x.png */; };
+		3BEA31D35D204FC1449DF09815228E38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		442F716DC7A5E28E2D36DB8D69BDDEF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		4826ACDB7790DD3126DF752B7CB95154 /* Pods-Teste Santander-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D887C36BF86074D4D1826E48806916B /* Pods-Teste Santander-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		519A187DAC1551899FD4426448F82E04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		60F9BAF30B9E432EDC73508425382B3B /* circular.png in Resources */ = {isa = PBXBuildFile; fileRef = 21FA53A9D1F65B4F88D7422719B775A8 /* circular.png */; };
+		63845FD51222167257D4C3D795DDDC07 /* ic_eye_open@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C96CE523AAB6A758D6524BF51C9DCA /* ic_eye_open@2x.png */; };
+		6C133193471A0A93B4CE45491148072A /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6151CAE8F02CFD615E85153236E36F9C /* TegKeychainConstants.swift */; };
+		71850E7AEBAC6378FEFF5437704767E6 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 65FAB12539EC4D02563892F66034BCB8 /* arrow.png */; };
+		732A9EF6EB234CC4A9BFA82D0688CD0C /* circular2.png in Resources */ = {isa = PBXBuildFile; fileRef = E76E2242BBD96A48DA1F78CAAC391505 /* circular2.png */; };
+		7B067971E234A0D1D3B17123544A9517 /* ic_password_checkmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0AC6E2C9730F5F10B429A8E7942F67 /* ic_password_checkmark@3x.png */; };
+		8248F7E24D18CF36CA19A3E93CD8DAD2 /* CPF-CNPJ-Validator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C896B0B904D2591B3C8FCF1E1C14E355 /* CPF-CNPJ-Validator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87F87633E44BD80C7ECB3B9531BE27B4 /* HideShowPasswordTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 619664668BFEBB9DD4976F18A31C5D61 /* HideShowPasswordTextField-dummy.m */; };
+		88ADCA902F1C34DA12650D934E180A09 /* Loadmation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBE13B0A446A10A3047961E5DB1B8161 /* Loadmation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		899D203800E8456B0178536000EA9C54 /* CPF-CNPJ-Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBBFF4F278126774B10AB9DDEA827BC /* CPF-CNPJ-Validator.swift */; };
+		8ED9DEAB5AB28FAC0A6B2EC8B64D6AF2 /* HideShowPasswordTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34A1D83000FF99FAF1D0A41784BB1F7A /* HideShowPasswordTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		939FF8A9AE6BE1F80B211C29E4D5242C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		9BA9E924E05D2E6DB006B950753513D7 /* ClockwiseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA0EAD17C4AE63973CCD58F0501E89 /* ClockwiseAnimation.swift */; };
+		9DB2FA4A0A4DCE38820A3C5A2590513C /* PasswordToggleVisibilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825FCD330C9BACF02A1A39162561C587 /* PasswordToggleVisibilityView.swift */; };
+		ADFF6252E813204A160F68D735594E2A /* Sector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ED7F988F59A2C6AB7B6906360010FE /* Sector.swift */; };
+		B39BF720A3E471DC10CDC6CC3986D2A9 /* KeychainSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF681C6F6FBD4CFB60D495511547E5C /* KeychainSwift-dummy.m */; };
+		B8B81DF25CFBAB56699D577B98DA7456 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B125EB85CCEB6035522112D612692A /* Spinner.swift */; };
+		BA207C023797B375C3F684F80A84A450 /* Loadmation-Loadmation in Resources */ = {isa = PBXBuildFile; fileRef = 80B5BC131991F0E3073C5B25AD952015 /* Loadmation-Loadmation */; };
+		BB8DD7D2E4495A82A26726163729553A /* CPF-CNPJ-Validator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C08BA84D36584BA90D18481E5727BFB5 /* CPF-CNPJ-Validator-dummy.m */; };
+		C543B2A5CF83423F50EF2DFA3A7F1141 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		CC80E0706CF8A744DBF3F71B52F5D5B3 /* ic_password_checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 840403A30AC652830040AFF892C25D7D /* ic_password_checkmark.png */; };
+		D271EF1098922395ABC12108E89AEA2D /* ic_eye_open.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E825232B341BFE36CD7A923E95ABF0 /* ic_eye_open.png */; };
+		E2F2E95F360705284B3D0BC4162FCFEA /* SDLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 525FD3CD2C0C9A6D63BB99364FC7C381 /* SDLoader-dummy.m */; };
+		E5D62891EAA9833ADA95C0D425B166E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		F1A6A71B583A241EFC8115E9174A7284 /* AntiClockwiseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3DCB1DB8D6AF62BAC2F8C81A453681 /* AntiClockwiseAnimation.swift */; };
+		FAA9422DBF165F89AA81D94DB2DBF457 /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B936D2F0ABF81E1693833C7F019B218C /* KeychainSwiftAccessOptions.swift */; };
+		FBC7EB6A6E0E7CE9E869384783859B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		FC8B550E1E08B34E1BA96F045F4C2263 /* ic_eye_closed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72E1174C025276C2E74B0F326FC47A75 /* ic_eye_closed@3x.png */; };
+		FF79990D238E0CF6CC747AABA2C4ADC6 /* HideShowPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502FFCAD62EBD9A096C977ED2E5DFFAE /* HideShowPasswordTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AC0E13BDBD2664C1636508C61FED733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 549A225ADEB558DBE1694F484894340B;
+			remoteInfo = "Loadmation-Loadmation";
+		};
+		43802BA5D4C4C66C5278963E5255D89B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9F3AACACE96C1B751AFE286D1144B69;
+			remoteInfo = Loadmation;
+		};
+		553262AAF788B19D7C2EA3DB7AE13240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BF4537D281B642FA0BE6D01C511544D;
+			remoteInfo = "CPF-CNPJ-Validator";
+		};
+		915BC54A1021E62B83C3F72DCE76B4CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22F9848403CA060219D1B8D0577A666A;
+			remoteInfo = HideShowPasswordTextField;
+		};
+		DB8C71A066C62A55981CD64E999CF3E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030884AAF10AA3BBCED4140F5B952B1E;
+			remoteInfo = SDLoader;
+		};
+		FC1C545FC8B567A7045092833773364B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E54A78BCF82272E99319D7F7F5E8C1;
+			remoteInfo = KeychainSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0480F81F6606997B23D3BC66E43C8917 /* Pods-Teste Santander */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Teste Santander"; path = Pods_Teste_Santander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0522AF655DFB5D0E2D005FEDE3594684 /* KeychainSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.release.xcconfig; sourceTree = "<group>"; };
+		0526A60701143115B3AB9412003750C0 /* Pods-Teste Santander-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Teste Santander-frameworks.sh"; sourceTree = "<group>"; };
+		06DD519847F768637D35B98B69C49AF7 /* HideShowPasswordTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HideShowPasswordTextField.release.xcconfig; sourceTree = "<group>"; };
+		0B0AC6E2C9730F5F10B429A8E7942F67 /* ic_password_checkmark@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_password_checkmark@3x.png"; path = "HideShowPasswordTextField/ic_password_checkmark@3x.png"; sourceTree = "<group>"; };
+		0B262E5FD63E164F67F53825F46E729E /* HideShowPasswordTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HideShowPasswordTextField-Info.plist"; sourceTree = "<group>"; };
+		0BF681C6F6FBD4CFB60D495511547E5C /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
+		11E825232B341BFE36CD7A923E95ABF0 /* ic_eye_open.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_eye_open.png; path = HideShowPasswordTextField/ic_eye_open.png; sourceTree = "<group>"; };
+		15A09FF171D687AF78C9875D6C07B196 /* SDLoader */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDLoader; path = SDLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		192FF9301D5993EA5E7D6BEDA88C9482 /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
+		21FA53A9D1F65B4F88D7422719B775A8 /* circular.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = circular.png; path = Src/Assets/circular.png; sourceTree = "<group>"; };
+		2242147FC4A99D6C891A473B208C325A /* ic_eye_open@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_eye_open@3x.png"; path = "HideShowPasswordTextField/ic_eye_open@3x.png"; sourceTree = "<group>"; };
+		25D392FAB683839767A05A25FE9E8E87 /* CPF-CNPJ-Validator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "CPF-CNPJ-Validator.modulemap"; sourceTree = "<group>"; };
+		26D2821035297F5CDCD879B0A48D3561 /* CPF-CNPJ-Validator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CPF-CNPJ-Validator.debug.xcconfig"; sourceTree = "<group>"; };
+		286647161ABA915DF81DF8CB5BC7089A /* Pods-Teste Santander-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Teste Santander-Info.plist"; sourceTree = "<group>"; };
+		34A1D83000FF99FAF1D0A41784BB1F7A /* HideShowPasswordTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HideShowPasswordTextField-umbrella.h"; sourceTree = "<group>"; };
+		3B8D89809B932EF6A9D56CC35AAFF90E /* KeychainSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-prefix.pch"; sourceTree = "<group>"; };
+		4AEC9FD6DA51F62F7A8C8F2505CC09E0 /* SDLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDLoader.modulemap; sourceTree = "<group>"; };
+		502FFCAD62EBD9A096C977ED2E5DFFAE /* HideShowPasswordTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HideShowPasswordTextField.swift; path = HideShowPasswordTextField/HideShowPasswordTextField.swift; sourceTree = "<group>"; };
+		525FD3CD2C0C9A6D63BB99364FC7C381 /* SDLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDLoader-dummy.m"; sourceTree = "<group>"; };
+		5260539F7F2CFF4AFDEAEB8CFE4E8208 /* Pods-Teste Santander.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Teste Santander.modulemap"; sourceTree = "<group>"; };
+		6151CAE8F02CFD615E85153236E36F9C /* TegKeychainConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TegKeychainConstants.swift; path = Sources/TegKeychainConstants.swift; sourceTree = "<group>"; };
+		619664668BFEBB9DD4976F18A31C5D61 /* HideShowPasswordTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HideShowPasswordTextField-dummy.m"; sourceTree = "<group>"; };
+		62B966362EB2450F8640C09EF2D9AF15 /* Loadmation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Loadmation-prefix.pch"; sourceTree = "<group>"; };
+		62ED7F988F59A2C6AB7B6906360010FE /* Sector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sector.swift; path = SDLoader/Classes/Sector.swift; sourceTree = "<group>"; };
+		65FAB12539EC4D02563892F66034BCB8 /* arrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = arrow.png; path = Src/Assets/arrow.png; sourceTree = "<group>"; };
+		72E1174C025276C2E74B0F326FC47A75 /* ic_eye_closed@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_eye_closed@3x.png"; path = "HideShowPasswordTextField/ic_eye_closed@3x.png"; sourceTree = "<group>"; };
+		75DC4D501C8E882E937B3B92B111391E /* ic_password_checkmark@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_password_checkmark@2x.png"; path = "HideShowPasswordTextField/ic_password_checkmark@2x.png"; sourceTree = "<group>"; };
+		7EDA0EAD17C4AE63973CCD58F0501E89 /* ClockwiseAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClockwiseAnimation.swift; path = SDLoader/Classes/Animations/ClockwiseAnimation.swift; sourceTree = "<group>"; };
+		80B5BC131991F0E3073C5B25AD952015 /* Loadmation-Loadmation */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Loadmation-Loadmation"; path = Loadmation.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		825FCD330C9BACF02A1A39162561C587 /* PasswordToggleVisibilityView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordToggleVisibilityView.swift; path = HideShowPasswordTextField/PasswordToggleVisibilityView.swift; sourceTree = "<group>"; };
+		840403A30AC652830040AFF892C25D7D /* ic_password_checkmark.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_password_checkmark.png; path = HideShowPasswordTextField/ic_password_checkmark.png; sourceTree = "<group>"; };
+		84787259020FE3350DCAE3EBE04636F6 /* Loadmation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Loadmation; path = Loadmation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E99065529BBB7BEDFB2AB3955262CF /* Loadmation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Loadmation.modulemap; sourceTree = "<group>"; };
+		8D887C36BF86074D4D1826E48806916B /* Pods-Teste Santander-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Teste Santander-umbrella.h"; sourceTree = "<group>"; };
+		8DBBFF4F278126774B10AB9DDEA827BC /* CPF-CNPJ-Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CPF-CNPJ-Validator.swift"; path = "Source/CPF-CNPJ-Validator.swift"; sourceTree = "<group>"; };
+		9064B7FBCD1B9253FDF9ACB189B46D2B /* CPF-CNPJ-Validator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "CPF-CNPJ-Validator"; path = CPF_CNPJ_Validator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A60889EE25C4013B32E8093C75C6FA /* KeychainSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwift.swift; path = Sources/KeychainSwift.swift; sourceTree = "<group>"; };
+		9517A9EFDD06EA8E2F0AB1556584E6A4 /* Pods-Teste Santander.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Teste Santander.debug.xcconfig"; sourceTree = "<group>"; };
+		9D903B89ADDD2E51485F54B452FDD2BC /* Loadmation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Loadmation-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainSwift; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E42C0DBA5C1F791637EE678FFD1031A /* HideShowPasswordTextField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HideShowPasswordTextField; path = HideShowPasswordTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0534FB64CD5E6E2F1DB8AA3A06B8137 /* Pods-Teste Santander-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Teste Santander-dummy.m"; sourceTree = "<group>"; };
+		A4890E5838DE0CDDF2C0A4E7ADAD10FA /* Pods-Teste Santander.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Teste Santander.release.xcconfig"; sourceTree = "<group>"; };
+		A59220DAFC0A15FEE7FB3CBBDCC5447D /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
+		A7BD03F4BD3F20006E0F6D59A79E1D64 /* SDLoader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDLoader-umbrella.h"; sourceTree = "<group>"; };
+		A94026BB8C0F3872FD91CC5DC26B11C1 /* Loadmation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Loadmation.swift; path = Src/Loadmation.swift; sourceTree = "<group>"; };
+		AADF45EE740510EE15C23D5FDE70BA37 /* SDLoader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDLoader.debug.xcconfig; sourceTree = "<group>"; };
+		AF300226CB0AA399C89D4A0B8BD5E036 /* HideShowPasswordTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HideShowPasswordTextField.modulemap; sourceTree = "<group>"; };
+		B3C96CE523AAB6A758D6524BF51C9DCA /* ic_eye_open@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_eye_open@2x.png"; path = "HideShowPasswordTextField/ic_eye_open@2x.png"; sourceTree = "<group>"; };
+		B563D74472D783FA8CD383DE44184008 /* ic_eye_closed@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_eye_closed@2x.png"; path = "HideShowPasswordTextField/ic_eye_closed@2x.png"; sourceTree = "<group>"; };
+		B936D2F0ABF81E1693833C7F019B218C /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = Sources/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
+		BD5C99FDF4C81270BD379160AD2C13EE /* ic_eye_closed.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_eye_closed.png; path = HideShowPasswordTextField/ic_eye_closed.png; sourceTree = "<group>"; };
+		BE6ABAB198377720569232ACBCAB4DAD /* ResourceBundle-Loadmation-Loadmation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Loadmation-Loadmation-Info.plist"; sourceTree = "<group>"; };
+		C08BA84D36584BA90D18481E5727BFB5 /* CPF-CNPJ-Validator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CPF-CNPJ-Validator-dummy.m"; sourceTree = "<group>"; };
+		C20FDBA94B97CBD908DA71D8201206F5 /* Loadmation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Loadmation.release.xcconfig; sourceTree = "<group>"; };
+		C4007F79C292B3816321EE7C6B10F924 /* SDLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDLoader-prefix.pch"; sourceTree = "<group>"; };
+		C896B0B904D2591B3C8FCF1E1C14E355 /* CPF-CNPJ-Validator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPF-CNPJ-Validator-umbrella.h"; sourceTree = "<group>"; };
+		CB3DCB1DB8D6AF62BAC2F8C81A453681 /* AntiClockwiseAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AntiClockwiseAnimation.swift; path = SDLoader/Classes/Animations/AntiClockwiseAnimation.swift; sourceTree = "<group>"; };
+		CBE13B0A446A10A3047961E5DB1B8161 /* Loadmation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Loadmation-umbrella.h"; sourceTree = "<group>"; };
+		CC588ED094F8AC1214896FC614F8D407 /* KeychainSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainSwift-Info.plist"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D2A7C161E66321F11B0FE7DB62715FF2 /* SDLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDLoader.swift; path = SDLoader/Classes/SDLoader.swift; sourceTree = "<group>"; };
+		D45CB0314D7E4A8538477673EC14825E /* Loadmation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Loadmation-dummy.m"; sourceTree = "<group>"; };
+		D4FBC97A29E3156DA43EAD8BF7D9A250 /* CPF-CNPJ-Validator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPF-CNPJ-Validator-prefix.pch"; sourceTree = "<group>"; };
+		D6D4395F2384FB4B3A487BFCB8C49594 /* Loadmation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Loadmation.debug.xcconfig; sourceTree = "<group>"; };
+		DFEF9465EB30D523DED40DFCF3FE4DF2 /* SDLoader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDLoader.release.xcconfig; sourceTree = "<group>"; };
+		E47453A177652ABDE75AAE75E51668A3 /* HideShowPasswordTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HideShowPasswordTextField-prefix.pch"; sourceTree = "<group>"; };
+		E76E2242BBD96A48DA1F78CAAC391505 /* circular2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = circular2.png; path = Src/Assets/circular2.png; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F14CFC50347B275DDA3D5400609362FD /* Pods-Teste Santander-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Teste Santander-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F420CFB87CCDC7BD973119DA8B6935BD /* Pods-Teste Santander-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Teste Santander-acknowledgements.plist"; sourceTree = "<group>"; };
+		F4E3B18E0BE808A2D7E73F0F8BE22FB2 /* SDLoader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDLoader-Info.plist"; sourceTree = "<group>"; };
+		F4E826676BFA3BA265617698DD67FC89 /* HideShowPasswordTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HideShowPasswordTextField.debug.xcconfig; sourceTree = "<group>"; };
+		F5B125EB85CCEB6035522112D612692A /* Spinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spinner.swift; path = SDLoader/Classes/Spinner.swift; sourceTree = "<group>"; };
+		F9B3F4AE8E2D25EC479F2DD43584A619 /* CPF-CNPJ-Validator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CPF-CNPJ-Validator-Info.plist"; sourceTree = "<group>"; };
+		FBACE61453611B6EABB7F23ABF20CAB5 /* CPF-CNPJ-Validator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CPF-CNPJ-Validator.release.xcconfig"; sourceTree = "<group>"; };
+		FD91F395676363851AF95057C30A74A6 /* KeychainSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C1F8A7610D49F0B050DAC3779F631D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC7EB6A6E0E7CE9E869384783859B81 /* Foundation.framework in Frameworks */,
+				939FF8A9AE6BE1F80B211C29E4D5242C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E7C3F6E9327C9C6FAA4FA3FB41439D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519A187DAC1551899FD4426448F82E04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B44088D31D8A48D904449FE41586EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEA31D35D204FC1449DF09815228E38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B0F9A3106B950B287A94B244F0F2872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F5E1096151C1DC75B67489352719863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C543B2A5CF83423F50EF2DFA3A7F1141 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D00DF7969A790F3EAE89D6D36EE295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442F716DC7A5E28E2D36DB8D69BDDEF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C384342DFD688B6CDC663C2B95FDC80E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D62891EAA9833ADA95C0D425B166E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A2CD5548C3AB1E34494E5FEAE5DB36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5C0691B0835AF621B769001984AD08F /* CPF-CNPJ-Validator */,
+				07DF5EAF4DC83116EA79104233855BBC /* HideShowPasswordTextField */,
+				C4D6BF23D1A0495AF5C68E1D37BD251E /* KeychainSwift */,
+				F947567856DCF07617B991788F6FCB30 /* Loadmation */,
+				967F5A502E1654FB7D7FFA2B1E29ABFD /* SDLoader */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		07DF5EAF4DC83116EA79104233855BBC /* HideShowPasswordTextField */ = {
+			isa = PBXGroup;
+			children = (
+				502FFCAD62EBD9A096C977ED2E5DFFAE /* HideShowPasswordTextField.swift */,
+				825FCD330C9BACF02A1A39162561C587 /* PasswordToggleVisibilityView.swift */,
+				67E83F5A5FC1F60B2540CD358A3112CF /* Resources */,
+				D75D4A8E69B2F6FD6DDCD8EE6CFEF6BA /* Support Files */,
+			);
+			name = HideShowPasswordTextField;
+			path = HideShowPasswordTextField;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A547BACCCBBF41FA34F94C9EA57CA2D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25D392FAB683839767A05A25FE9E8E87 /* CPF-CNPJ-Validator.modulemap */,
+				C08BA84D36584BA90D18481E5727BFB5 /* CPF-CNPJ-Validator-dummy.m */,
+				F9B3F4AE8E2D25EC479F2DD43584A619 /* CPF-CNPJ-Validator-Info.plist */,
+				D4FBC97A29E3156DA43EAD8BF7D9A250 /* CPF-CNPJ-Validator-prefix.pch */,
+				C896B0B904D2591B3C8FCF1E1C14E355 /* CPF-CNPJ-Validator-umbrella.h */,
+				26D2821035297F5CDCD879B0A48D3561 /* CPF-CNPJ-Validator.debug.xcconfig */,
+				FBACE61453611B6EABB7F23ABF20CAB5 /* CPF-CNPJ-Validator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CPF-CNPJ-Validator";
+			sourceTree = "<group>";
+		};
+		333D17F465E3DF61DFA0A2FFCED189A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65FAB12539EC4D02563892F66034BCB8 /* arrow.png */,
+				21FA53A9D1F65B4F88D7422719B775A8 /* circular.png */,
+				E76E2242BBD96A48DA1F78CAAC391505 /* circular2.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		385A7F768728778C495444F7C31BA2BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				192FF9301D5993EA5E7D6BEDA88C9482 /* KeychainSwift.modulemap */,
+				0BF681C6F6FBD4CFB60D495511547E5C /* KeychainSwift-dummy.m */,
+				CC588ED094F8AC1214896FC614F8D407 /* KeychainSwift-Info.plist */,
+				3B8D89809B932EF6A9D56CC35AAFF90E /* KeychainSwift-prefix.pch */,
+				A59220DAFC0A15FEE7FB3CBBDCC5447D /* KeychainSwift-umbrella.h */,
+				FD91F395676363851AF95057C30A74A6 /* KeychainSwift.debug.xcconfig */,
+				0522AF655DFB5D0E2D005FEDE3594684 /* KeychainSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeychainSwift";
+			sourceTree = "<group>";
+		};
+		385B148F8778170E2A325B8C9B0E4304 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AEC9FD6DA51F62F7A8C8F2505CC09E0 /* SDLoader.modulemap */,
+				525FD3CD2C0C9A6D63BB99364FC7C381 /* SDLoader-dummy.m */,
+				F4E3B18E0BE808A2D7E73F0F8BE22FB2 /* SDLoader-Info.plist */,
+				C4007F79C292B3816321EE7C6B10F924 /* SDLoader-prefix.pch */,
+				A7BD03F4BD3F20006E0F6D59A79E1D64 /* SDLoader-umbrella.h */,
+				AADF45EE740510EE15C23D5FDE70BA37 /* SDLoader.debug.xcconfig */,
+				DFEF9465EB30D523DED40DFCF3FE4DF2 /* SDLoader.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDLoader";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		67E83F5A5FC1F60B2540CD358A3112CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD5C99FDF4C81270BD379160AD2C13EE /* ic_eye_closed.png */,
+				B563D74472D783FA8CD383DE44184008 /* ic_eye_closed@2x.png */,
+				72E1174C025276C2E74B0F326FC47A75 /* ic_eye_closed@3x.png */,
+				11E825232B341BFE36CD7A923E95ABF0 /* ic_eye_open.png */,
+				B3C96CE523AAB6A758D6524BF51C9DCA /* ic_eye_open@2x.png */,
+				2242147FC4A99D6C891A473B208C325A /* ic_eye_open@3x.png */,
+				840403A30AC652830040AFF892C25D7D /* ic_password_checkmark.png */,
+				75DC4D501C8E882E937B3B92B111391E /* ic_password_checkmark@2x.png */,
+				0B0AC6E2C9730F5F10B429A8E7942F67 /* ic_password_checkmark@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8E33EB3BF283A8F228A1C48DE4ADCEDE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88E99065529BBB7BEDFB2AB3955262CF /* Loadmation.modulemap */,
+				D45CB0314D7E4A8538477673EC14825E /* Loadmation-dummy.m */,
+				9D903B89ADDD2E51485F54B452FDD2BC /* Loadmation-Info.plist */,
+				62B966362EB2450F8640C09EF2D9AF15 /* Loadmation-prefix.pch */,
+				CBE13B0A446A10A3047961E5DB1B8161 /* Loadmation-umbrella.h */,
+				D6D4395F2384FB4B3A487BFCB8C49594 /* Loadmation.debug.xcconfig */,
+				C20FDBA94B97CBD908DA71D8201206F5 /* Loadmation.release.xcconfig */,
+				BE6ABAB198377720569232ACBCAB4DAD /* ResourceBundle-Loadmation-Loadmation-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Loadmation";
+			sourceTree = "<group>";
+		};
+		967F5A502E1654FB7D7FFA2B1E29ABFD /* SDLoader */ = {
+			isa = PBXGroup;
+			children = (
+				CB3DCB1DB8D6AF62BAC2F8C81A453681 /* AntiClockwiseAnimation.swift */,
+				7EDA0EAD17C4AE63973CCD58F0501E89 /* ClockwiseAnimation.swift */,
+				D2A7C161E66321F11B0FE7DB62715FF2 /* SDLoader.swift */,
+				62ED7F988F59A2C6AB7B6906360010FE /* Sector.swift */,
+				F5B125EB85CCEB6035522112D612692A /* Spinner.swift */,
+				385B148F8778170E2A325B8C9B0E4304 /* Support Files */,
+			);
+			name = SDLoader;
+			path = SDLoader;
+			sourceTree = "<group>";
+		};
+		BE561915FA8920F55B26498E0AC12171 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8B8A02839CFC75DA0598CFFC05C1091 /* Pods-Teste Santander */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C4D6BF23D1A0495AF5C68E1D37BD251E /* KeychainSwift */ = {
+			isa = PBXGroup;
+			children = (
+				93A60889EE25C4013B32E8093C75C6FA /* KeychainSwift.swift */,
+				B936D2F0ABF81E1693833C7F019B218C /* KeychainSwiftAccessOptions.swift */,
+				6151CAE8F02CFD615E85153236E36F9C /* TegKeychainConstants.swift */,
+				385A7F768728778C495444F7C31BA2BF /* Support Files */,
+			);
+			name = KeychainSwift;
+			path = KeychainSwift;
+			sourceTree = "<group>";
+		};
+		C8B8A02839CFC75DA0598CFFC05C1091 /* Pods-Teste Santander */ = {
+			isa = PBXGroup;
+			children = (
+				5260539F7F2CFF4AFDEAEB8CFE4E8208 /* Pods-Teste Santander.modulemap */,
+				F14CFC50347B275DDA3D5400609362FD /* Pods-Teste Santander-acknowledgements.markdown */,
+				F420CFB87CCDC7BD973119DA8B6935BD /* Pods-Teste Santander-acknowledgements.plist */,
+				A0534FB64CD5E6E2F1DB8AA3A06B8137 /* Pods-Teste Santander-dummy.m */,
+				0526A60701143115B3AB9412003750C0 /* Pods-Teste Santander-frameworks.sh */,
+				286647161ABA915DF81DF8CB5BC7089A /* Pods-Teste Santander-Info.plist */,
+				8D887C36BF86074D4D1826E48806916B /* Pods-Teste Santander-umbrella.h */,
+				9517A9EFDD06EA8E2F0AB1556584E6A4 /* Pods-Teste Santander.debug.xcconfig */,
+				A4890E5838DE0CDDF2C0A4E7ADAD10FA /* Pods-Teste Santander.release.xcconfig */,
+			);
+			name = "Pods-Teste Santander";
+			path = "Target Support Files/Pods-Teste Santander";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				03A2CD5548C3AB1E34494E5FEAE5DB36 /* Pods */,
+				DE77365904D461A6CD41D3835FDB812A /* Products */,
+				BE561915FA8920F55B26498E0AC12171 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D75D4A8E69B2F6FD6DDCD8EE6CFEF6BA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF300226CB0AA399C89D4A0B8BD5E036 /* HideShowPasswordTextField.modulemap */,
+				619664668BFEBB9DD4976F18A31C5D61 /* HideShowPasswordTextField-dummy.m */,
+				0B262E5FD63E164F67F53825F46E729E /* HideShowPasswordTextField-Info.plist */,
+				E47453A177652ABDE75AAE75E51668A3 /* HideShowPasswordTextField-prefix.pch */,
+				34A1D83000FF99FAF1D0A41784BB1F7A /* HideShowPasswordTextField-umbrella.h */,
+				F4E826676BFA3BA265617698DD67FC89 /* HideShowPasswordTextField.debug.xcconfig */,
+				06DD519847F768637D35B98B69C49AF7 /* HideShowPasswordTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HideShowPasswordTextField";
+			sourceTree = "<group>";
+		};
+		DE77365904D461A6CD41D3835FDB812A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9064B7FBCD1B9253FDF9ACB189B46D2B /* CPF-CNPJ-Validator */,
+				9E42C0DBA5C1F791637EE678FFD1031A /* HideShowPasswordTextField */,
+				9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift */,
+				84787259020FE3350DCAE3EBE04636F6 /* Loadmation */,
+				80B5BC131991F0E3073C5B25AD952015 /* Loadmation-Loadmation */,
+				0480F81F6606997B23D3BC66E43C8917 /* Pods-Teste Santander */,
+				15A09FF171D687AF78C9875D6C07B196 /* SDLoader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5C0691B0835AF621B769001984AD08F /* CPF-CNPJ-Validator */ = {
+			isa = PBXGroup;
+			children = (
+				8DBBFF4F278126774B10AB9DDEA827BC /* CPF-CNPJ-Validator.swift */,
+				2A547BACCCBBF41FA34F94C9EA57CA2D /* Support Files */,
+			);
+			name = "CPF-CNPJ-Validator";
+			path = "CPF-CNPJ-Validator";
+			sourceTree = "<group>";
+		};
+		F947567856DCF07617B991788F6FCB30 /* Loadmation */ = {
+			isa = PBXGroup;
+			children = (
+				A94026BB8C0F3872FD91CC5DC26B11C1 /* Loadmation.swift */,
+				333D17F465E3DF61DFA0A2FFCED189A7 /* Resources */,
+				8E33EB3BF283A8F228A1C48DE4ADCEDE /* Support Files */,
+			);
+			name = Loadmation;
+			path = Loadmation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1380B9994192F420D8BC0308CC7B1B0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EC024F54023B0D698A37C47122C953 /* KeychainSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232C54CE1C84E117EA36A9DA10122F5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3716245ECC1477B8900C6ED5B580E0D2 /* SDLoader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A1F587BBB4E12CB5C35CBA9B8CBC21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88ADCA902F1C34DA12650D934E180A09 /* Loadmation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A59D28755B68E36FCEFB2D021C70E66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4826ACDB7790DD3126DF752B7CB95154 /* Pods-Teste Santander-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA31EB65641D50427B333DB87B6E7D4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8248F7E24D18CF36CA19A3E93CD8DAD2 /* CPF-CNPJ-Validator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6635E594F94C93852ABCF1E1B7AE3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED9DEAB5AB28FAC0A6B2EC8B64D6AF2 /* HideShowPasswordTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		030884AAF10AA3BBCED4140F5B952B1E /* SDLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E2F25E7C53A95F14A37AC17F179716 /* Build configuration list for PBXNativeTarget "SDLoader" */;
+			buildPhases = (
+				232C54CE1C84E117EA36A9DA10122F5B /* Headers */,
+				C7920C13AA4926F80F49D80337CFA408 /* Sources */,
+				1E7C3F6E9327C9C6FAA4FA3FB41439D5 /* Frameworks */,
+				5C900117B563DDA11B59EBE405B3BAE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDLoader;
+			productName = SDLoader;
+			productReference = 15A09FF171D687AF78C9875D6C07B196 /* SDLoader */;
+			productType = "com.apple.product-type.framework";
+		};
+		07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 997BF8AEF73E04BE3F0E828FF63C51E6 /* Build configuration list for PBXNativeTarget "KeychainSwift" */;
+			buildPhases = (
+				1380B9994192F420D8BC0308CC7B1B0D /* Headers */,
+				27429ECFAA0B46393CF2868590187F44 /* Sources */,
+				8F5E1096151C1DC75B67489352719863 /* Frameworks */,
+				417F0B4D46DB5C4EC5381D3770D462EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainSwift;
+			productName = KeychainSwift;
+			productReference = 9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		22F9848403CA060219D1B8D0577A666A /* HideShowPasswordTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D32B1605A31E15606024BFB2330734E /* Build configuration list for PBXNativeTarget "HideShowPasswordTextField" */;
+			buildPhases = (
+				FA6635E594F94C93852ABCF1E1B7AE3D /* Headers */,
+				47E5ABACC0BFBF6B93F0685250614642 /* Sources */,
+				1C1F8A7610D49F0B050DAC3779F631D1 /* Frameworks */,
+				9A27E8B7810AB6A1438EAD94BE5F8D3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HideShowPasswordTextField;
+			productName = HideShowPasswordTextField;
+			productReference = 9E42C0DBA5C1F791637EE678FFD1031A /* HideShowPasswordTextField */;
+			productType = "com.apple.product-type.framework";
+		};
+		549A225ADEB558DBE1694F484894340B /* Loadmation-Loadmation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC53BBD5786404C9598352CB8F4ACE54 /* Build configuration list for PBXNativeTarget "Loadmation-Loadmation" */;
+			buildPhases = (
+				CC2F88B848A4B74F62DFABEAE0ED65FE /* Sources */,
+				7B0F9A3106B950B287A94B244F0F2872 /* Frameworks */,
+				484A67925C509B8EEC0CBDB01F130D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Loadmation-Loadmation";
+			productName = Loadmation;
+			productReference = 80B5BC131991F0E3073C5B25AD952015 /* Loadmation-Loadmation */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6BF4537D281B642FA0BE6D01C511544D /* CPF-CNPJ-Validator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84A2496009CD335F0F0C0420734FAD8 /* Build configuration list for PBXNativeTarget "CPF-CNPJ-Validator" */;
+			buildPhases = (
+				DA31EB65641D50427B333DB87B6E7D4F /* Headers */,
+				0D7173DF11DCCFB65861E8FB7C609629 /* Sources */,
+				A9D00DF7969A790F3EAE89D6D36EE295 /* Frameworks */,
+				DD85F1D679DDBAA737C8DB08D2BEA286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CPF-CNPJ-Validator";
+			productName = CPF_CNPJ_Validator;
+			productReference = 9064B7FBCD1B9253FDF9ACB189B46D2B /* CPF-CNPJ-Validator */;
+			productType = "com.apple.product-type.framework";
+		};
+		9EF0FF3F46C1EE5B6F6B2BD388BEBB3C /* Pods-Teste Santander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28699ED42AC362B4B7C1E08F13A5C3C /* Build configuration list for PBXNativeTarget "Pods-Teste Santander" */;
+			buildPhases = (
+				3A59D28755B68E36FCEFB2D021C70E66 /* Headers */,
+				0B5848BFFDB7243F91E5EFFB2C7D7B8C /* Sources */,
+				68B44088D31D8A48D904449FE41586EC /* Frameworks */,
+				0887280B2853BEEA086B2DDF7F462923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35A04473BBF2F0CE7362FCD32180BC45 /* PBXTargetDependency */,
+				B7AD8E3E36640FEF59BCCF08F585733E /* PBXTargetDependency */,
+				7C8131303583BA0E27C797C6FEFCC55F /* PBXTargetDependency */,
+				D15B3D17855090D3F2735FE529F62380 /* PBXTargetDependency */,
+				AF228839B50B9FAD97EAC1FDB8C7F3DB /* PBXTargetDependency */,
+			);
+			name = "Pods-Teste Santander";
+			productName = Pods_Teste_Santander;
+			productReference = 0480F81F6606997B23D3BC66E43C8917 /* Pods-Teste Santander */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9F3AACACE96C1B751AFE286D1144B69 /* Loadmation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A613CB896035AAF3C3027922C4A9E5 /* Build configuration list for PBXNativeTarget "Loadmation" */;
+			buildPhases = (
+				30A1F587BBB4E12CB5C35CBA9B8CBC21 /* Headers */,
+				CB07AE00DB3C2C72951AE135E103484B /* Sources */,
+				C384342DFD688B6CDC663C2B95FDC80E /* Frameworks */,
+				1474F4C2A25DB450A92441A4BAE03B8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33771336435060D5141BCAD923FCE9F3 /* PBXTargetDependency */,
+			);
+			name = Loadmation;
+			productName = Loadmation;
+			productReference = 84787259020FE3350DCAE3EBE04636F6 /* Loadmation */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DE77365904D461A6CD41D3835FDB812A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BF4537D281B642FA0BE6D01C511544D /* CPF-CNPJ-Validator */,
+				22F9848403CA060219D1B8D0577A666A /* HideShowPasswordTextField */,
+				07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */,
+				B9F3AACACE96C1B751AFE286D1144B69 /* Loadmation */,
+				549A225ADEB558DBE1694F484894340B /* Loadmation-Loadmation */,
+				9EF0FF3F46C1EE5B6F6B2BD388BEBB3C /* Pods-Teste Santander */,
+				030884AAF10AA3BBCED4140F5B952B1E /* SDLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0887280B2853BEEA086B2DDF7F462923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1474F4C2A25DB450A92441A4BAE03B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA207C023797B375C3F684F80A84A450 /* Loadmation-Loadmation in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417F0B4D46DB5C4EC5381D3770D462EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484A67925C509B8EEC0CBDB01F130D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71850E7AEBAC6378FEFF5437704767E6 /* arrow.png in Resources */,
+				60F9BAF30B9E432EDC73508425382B3B /* circular.png in Resources */,
+				732A9EF6EB234CC4A9BFA82D0688CD0C /* circular2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C900117B563DDA11B59EBE405B3BAE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A27E8B7810AB6A1438EAD94BE5F8D3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32ACDBE9A819C4472C54F0D072E38288 /* ic_eye_closed.png in Resources */,
+				3A02D3209E23395602E3390E9351C9A8 /* ic_eye_closed@2x.png in Resources */,
+				FC8B550E1E08B34E1BA96F045F4C2263 /* ic_eye_closed@3x.png in Resources */,
+				D271EF1098922395ABC12108E89AEA2D /* ic_eye_open.png in Resources */,
+				63845FD51222167257D4C3D795DDDC07 /* ic_eye_open@2x.png in Resources */,
+				14B622717C6A2D5E5A4DD8B14DAD46CC /* ic_eye_open@3x.png in Resources */,
+				CC80E0706CF8A744DBF3F71B52F5D5B3 /* ic_password_checkmark.png in Resources */,
+				28B8AA70098EF3938F6E6C317D36141E /* ic_password_checkmark@2x.png in Resources */,
+				7B067971E234A0D1D3B17123544A9517 /* ic_password_checkmark@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD85F1D679DDBAA737C8DB08D2BEA286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B5848BFFDB7243F91E5EFFB2C7D7B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256CB8669CD27B641D4F09032F07A1F2 /* Pods-Teste Santander-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7173DF11DCCFB65861E8FB7C609629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899D203800E8456B0178536000EA9C54 /* CPF-CNPJ-Validator.swift in Sources */,
+				BB8DD7D2E4495A82A26726163729553A /* CPF-CNPJ-Validator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27429ECFAA0B46393CF2868590187F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBFBBC52B77AEDD220B219AFA55B4F6 /* KeychainSwift.swift in Sources */,
+				B39BF720A3E471DC10CDC6CC3986D2A9 /* KeychainSwift-dummy.m in Sources */,
+				FAA9422DBF165F89AA81D94DB2DBF457 /* KeychainSwiftAccessOptions.swift in Sources */,
+				6C133193471A0A93B4CE45491148072A /* TegKeychainConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E5ABACC0BFBF6B93F0685250614642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF79990D238E0CF6CC747AABA2C4ADC6 /* HideShowPasswordTextField.swift in Sources */,
+				87F87633E44BD80C7ECB3B9531BE27B4 /* HideShowPasswordTextField-dummy.m in Sources */,
+				9DB2FA4A0A4DCE38820A3C5A2590513C /* PasswordToggleVisibilityView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7920C13AA4926F80F49D80337CFA408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A6A71B583A241EFC8115E9174A7284 /* AntiClockwiseAnimation.swift in Sources */,
+				9BA9E924E05D2E6DB006B950753513D7 /* ClockwiseAnimation.swift in Sources */,
+				04216F743D48921044A5AB1A0B60FED4 /* SDLoader.swift in Sources */,
+				E2F2E95F360705284B3D0BC4162FCFEA /* SDLoader-dummy.m in Sources */,
+				ADFF6252E813204A160F68D735594E2A /* Sector.swift in Sources */,
+				B8B81DF25CFBAB56699D577B98DA7456 /* Spinner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB07AE00DB3C2C72951AE135E103484B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B3BBFCE8C6DBE1DEDC8BEF5C88D829 /* Loadmation.swift in Sources */,
+				170A3B9221916FA1B983407D3C9471EC /* Loadmation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2F88B848A4B74F62DFABEAE0ED65FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33771336435060D5141BCAD923FCE9F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Loadmation-Loadmation";
+			target = 549A225ADEB558DBE1694F484894340B /* Loadmation-Loadmation */;
+			targetProxy = 3AC0E13BDBD2664C1636508C61FED733 /* PBXContainerItemProxy */;
+		};
+		35A04473BBF2F0CE7362FCD32180BC45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CPF-CNPJ-Validator";
+			target = 6BF4537D281B642FA0BE6D01C511544D /* CPF-CNPJ-Validator */;
+			targetProxy = 553262AAF788B19D7C2EA3DB7AE13240 /* PBXContainerItemProxy */;
+		};
+		7C8131303583BA0E27C797C6FEFCC55F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainSwift;
+			target = 07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */;
+			targetProxy = FC1C545FC8B567A7045092833773364B /* PBXContainerItemProxy */;
+		};
+		AF228839B50B9FAD97EAC1FDB8C7F3DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDLoader;
+			target = 030884AAF10AA3BBCED4140F5B952B1E /* SDLoader */;
+			targetProxy = DB8C71A066C62A55981CD64E999CF3E7 /* PBXContainerItemProxy */;
+		};
+		B7AD8E3E36640FEF59BCCF08F585733E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HideShowPasswordTextField;
+			target = 22F9848403CA060219D1B8D0577A666A /* HideShowPasswordTextField */;
+			targetProxy = 915BC54A1021E62B83C3F72DCE76B4CD /* PBXContainerItemProxy */;
+		};
+		D15B3D17855090D3F2735FE529F62380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Loadmation;
+			target = B9F3AACACE96C1B751AFE286D1144B69 /* Loadmation */;
+			targetProxy = 43802BA5D4C4C66C5278963E5255D89B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03207F9E92D518D29233C2FE6286CE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E826676BFA3BA265617698DD67FC89 /* HideShowPasswordTextField.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HideShowPasswordTextField/HideShowPasswordTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HideShowPasswordTextField/HideShowPasswordTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HideShowPasswordTextField/HideShowPasswordTextField.modulemap";
+				PRODUCT_MODULE_NAME = HideShowPasswordTextField;
+				PRODUCT_NAME = HideShowPasswordTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		034D7549DE55FFCA3390E54F98696734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4890E5838DE0CDDF2C0A4E7ADAD10FA /* Pods-Teste Santander.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Teste Santander/Pods-Teste Santander-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Teste Santander/Pods-Teste Santander.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1E55812F4DFFDC58E7ABE36D6DFF6746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9517A9EFDD06EA8E2F0AB1556584E6A4 /* Pods-Teste Santander.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Teste Santander/Pods-Teste Santander-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Teste Santander/Pods-Teste Santander.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A1218437EDA75F74F25B6C2E07DEEE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD91F395676363851AF95057C30A74A6 /* KeychainSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/KeychainSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				PRODUCT_MODULE_NAME = KeychainSwift;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		56597C46B8675D9C4E5A01F002CD48FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D2821035297F5CDCD879B0A48D3561 /* CPF-CNPJ-Validator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CPF-CNPJ-Validator/CPF-CNPJ-Validator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPF-CNPJ-Validator/CPF-CNPJ-Validator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CPF-CNPJ-Validator/CPF-CNPJ-Validator.modulemap";
+				PRODUCT_MODULE_NAME = CPF_CNPJ_Validator;
+				PRODUCT_NAME = CPF_CNPJ_Validator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5665F1A9427CEA99262D479D2B003F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6D4395F2384FB4B3A487BFCB8C49594 /* Loadmation.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Loadmation";
+				IBSC_MODULE = Loadmation;
+				INFOPLIST_FILE = "Target Support Files/Loadmation/ResourceBundle-Loadmation-Loadmation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = Loadmation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9244620531F395165C9F2D234B5CAEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C20FDBA94B97CBD908DA71D8201206F5 /* Loadmation.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Loadmation/Loadmation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Loadmation/Loadmation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Loadmation/Loadmation.modulemap";
+				PRODUCT_MODULE_NAME = Loadmation;
+				PRODUCT_NAME = Loadmation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		987B56B707CF11DD8DB5E8F363B0D864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBACE61453611B6EABB7F23ABF20CAB5 /* CPF-CNPJ-Validator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CPF-CNPJ-Validator/CPF-CNPJ-Validator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPF-CNPJ-Validator/CPF-CNPJ-Validator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CPF-CNPJ-Validator/CPF-CNPJ-Validator.modulemap";
+				PRODUCT_MODULE_NAME = CPF_CNPJ_Validator;
+				PRODUCT_NAME = CPF_CNPJ_Validator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B127694C6192E06E43E270A1E313CABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AADF45EE740510EE15C23D5FDE70BA37 /* SDLoader.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDLoader/SDLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDLoader/SDLoader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SDLoader/SDLoader.modulemap";
+				PRODUCT_MODULE_NAME = SDLoader;
+				PRODUCT_NAME = SDLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4C9D0EE550DCB81608FCC6C2B716D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6D4395F2384FB4B3A487BFCB8C49594 /* Loadmation.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Loadmation/Loadmation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Loadmation/Loadmation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Loadmation/Loadmation.modulemap";
+				PRODUCT_MODULE_NAME = Loadmation;
+				PRODUCT_NAME = Loadmation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2EC1B09B43142D2FEB84F3057123284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C20FDBA94B97CBD908DA71D8201206F5 /* Loadmation.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Loadmation";
+				IBSC_MODULE = Loadmation;
+				INFOPLIST_FILE = "Target Support Files/Loadmation/ResourceBundle-Loadmation-Loadmation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = Loadmation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E138B799603EF03BD8BF616093712711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06DD519847F768637D35B98B69C49AF7 /* HideShowPasswordTextField.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HideShowPasswordTextField/HideShowPasswordTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HideShowPasswordTextField/HideShowPasswordTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HideShowPasswordTextField/HideShowPasswordTextField.modulemap";
+				PRODUCT_MODULE_NAME = HideShowPasswordTextField;
+				PRODUCT_NAME = HideShowPasswordTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F505119D7618CC9BCE18128B091F07D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0522AF655DFB5D0E2D005FEDE3594684 /* KeychainSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/KeychainSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				PRODUCT_MODULE_NAME = KeychainSwift;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F69CFB0B276593752B515608087940FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFEF9465EB30D523DED40DFCF3FE4DF2 /* SDLoader.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDLoader/SDLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDLoader/SDLoader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SDLoader/SDLoader.modulemap";
+				PRODUCT_MODULE_NAME = SDLoader;
+				PRODUCT_NAME = SDLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22A613CB896035AAF3C3027922C4A9E5 /* Build configuration list for PBXNativeTarget "Loadmation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C9D0EE550DCB81608FCC6C2B716D75 /* Debug */,
+				9244620531F395165C9F2D234B5CAEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D32B1605A31E15606024BFB2330734E /* Build configuration list for PBXNativeTarget "HideShowPasswordTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03207F9E92D518D29233C2FE6286CE9E /* Debug */,
+				E138B799603EF03BD8BF616093712711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E2F25E7C53A95F14A37AC17F179716 /* Build configuration list for PBXNativeTarget "SDLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B127694C6192E06E43E270A1E313CABE /* Debug */,
+				F69CFB0B276593752B515608087940FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		997BF8AEF73E04BE3F0E828FF63C51E6 /* Build configuration list for PBXNativeTarget "KeychainSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1218437EDA75F74F25B6C2E07DEEE7 /* Debug */,
+				F505119D7618CC9BCE18128B091F07D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28699ED42AC362B4B7C1E08F13A5C3C /* Build configuration list for PBXNativeTarget "Pods-Teste Santander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E55812F4DFFDC58E7ABE36D6DFF6746 /* Debug */,
+				034D7549DE55FFCA3390E54F98696734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B84A2496009CD335F0F0C0420734FAD8 /* Build configuration list for PBXNativeTarget "CPF-CNPJ-Validator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56597C46B8675D9C4E5A01F002CD48FB /* Debug */,
+				987B56B707CF11DD8DB5E8F363B0D864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC53BBD5786404C9598352CB8F4ACE54 /* Build configuration list for PBXNativeTarget "Loadmation-Loadmation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5665F1A9427CEA99262D479D2B003F26 /* Debug */,
+				C2EC1B09B43142D2FEB84F3057123284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

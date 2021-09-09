@@ -1,0 +1,6 @@
+framework module Loadmation {
+  umbrella header "Loadmation-umbrella.h"
+
+  export *
+  module * { export * }
+}
